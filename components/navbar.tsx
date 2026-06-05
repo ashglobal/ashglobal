@@ -62,7 +62,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="ASH Global Initiatives"
               width={50}
               height={50}

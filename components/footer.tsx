@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Youtube } from "lucide-react"
 
 const footerLinks = {
@@ -36,9 +37,13 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-gradient-gold flex items-center justify-center">
-                <span className="font-serif text-xl font-bold text-primary-foreground">ASH</span>
-              </div>
+              <Image
+                src="/logo.png"
+                alt="ASH Global Initiatives"
+                width={48}
+                height={48}
+                className="w-12 h-12"
+              />
               <div>
                 <span className="font-serif text-xl font-bold text-foreground">ASH Global</span>
                 <p className="text-xs text-muted-foreground">Initiatives</p>
@@ -50,26 +55,38 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://facebook.com/ASHGlobalInitiatives"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://instagram.com/ashglobalinitiatives"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://twitter.com/ashglobalinits"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                aria-label="Twitter"
               >
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://youtube.com/@mrashglobal"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                aria-label="YouTube"
               >
                 <Youtube className="w-5 h-5" />
               </a>
@@ -146,17 +163,13 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
             <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-primary" />
-                <span>Paneilla Apartment, Murang&apos;a County, Kenya</span>
-              </div>
-              <a href="tel:+254700000000" className="flex items-center gap-2 hover:text-primary transition-colors">
+              <a href="https://wa.me/254728904762" className="flex items-center gap-2 hover:text-primary transition-colors">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>+254 700 000 000</span>
+                <span>+254 728 904 762</span>
               </a>
-              <a href="mailto:info@ashglobal.org" className="flex items-center gap-2 hover:text-primary transition-colors">
+              <a href="mailto:ashpoah@gmail.com" className="flex items-center gap-2 hover:text-primary transition-colors">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>info@ashglobal.org</span>
+                <span>ashpoah@gmail.com</span>
               </a>
             </div>
           </div>

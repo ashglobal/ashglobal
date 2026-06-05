@@ -3,40 +3,56 @@
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
-import { GraduationCap, Building, Gift, Users } from "lucide-react"
+import { GraduationCap, Building, Gift, Users, Zap, Briefcase } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const options = [
   {
     icon: GraduationCap,
-    title: "Sponsor a Student",
-    description: "Cover the training costs for one student. Your sponsorship includes registration, daily training, and certification fees.",
+    title: "Sponsor a Trainee",
+    description: "Cover full training costs for one student including registration, daily training, materials, and certification fees.",
     amount: "Ksh. 15,000",
     period: "Full Program",
     popular: true,
   },
   {
     icon: Building,
-    title: "Training Center Fund",
-    description: "Help us build a dedicated vocational training center that will serve thousands of community members for generations.",
+    title: "Support a Program",
+    description: "Fund a specific training program or community initiative. Help us expand our vocational training centers.",
     amount: "Any Amount",
     period: "One-time or Monthly",
     popular: false,
   },
   {
+    icon: Zap,
+    title: "Fund a Community Initiative",
+    description: "Support specific community development projects, youth empowerment activities, and member welfare programs.",
+    amount: "Custom Amount",
+    period: "Project-based",
+    popular: false,
+  },
+  {
+    icon: Briefcase,
+    title: "Become a Partner",
+    description: "Corporate or institutional partnership. Receive recognition, impact reports, and employee engagement opportunities.",
+    amount: "Custom",
+    period: "Annual Partnership",
+    popular: false,
+  },
+  {
     icon: Gift,
     title: "In-Kind Donations",
-    description: "Donate equipment, materials, or supplies for our training programs. Contact us for a list of needed items.",
+    description: "Donate equipment, materials, or professional services for our training programs. Contact us for specific needs.",
     amount: "Materials",
     period: "As Available",
     popular: false,
   },
   {
     icon: Users,
-    title: "Corporate Partnership",
-    description: "Partner with us as an organization. Receive recognition, impact reports, and opportunities for employee engagement.",
-    amount: "Custom",
-    period: "Annual Partnership",
+    title: "Explore Grant Opportunities",
+    description: "Learn about foundation grants, corporate sponsorships, and government funding programs we are applying for.",
+    amount: "Varies",
+    period: "Collaborative",
     popular: false,
   },
 ]
@@ -62,7 +78,7 @@ export function DonationOptions() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {options.map((option, index) => (
             <motion.div
               key={option.title}
