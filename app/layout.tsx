@@ -30,16 +30,33 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: 'ASH Global Initiatives | Youth Empowerment & Community Development',
   description: 'ASH Global Initiatives empowers youth through skill development, vocational training, business mentorship, IT programs, and community development in Kenya. Transform lives through education and opportunity.',
-  keywords: ['youth empowerment', 'vocational training', 'Kenya', 'community development', 'skill development', 'business mentorship', 'technology training', 'social impact'],
+  keywords: ['youth empowerment', 'vocational training', 'Kenya', 'community development', 'skill development', 'business mentorship', 'technology training', 'social impact', 'beauty training', 'entrepreneurship'],
   authors: [{ name: 'ASH Global Initiatives' }],
+  creator: 'ASH Global Initiatives',
+  publisher: 'ASH Global Initiatives',
   openGraph: {
-    title: 'ASH Global Initiatives',
-    description: 'Together we arise and shine - empowering youth, transforming communities.',
+    title: 'ASH Global Initiatives | Building Stronger People Everywhere',
+    description: 'Together we arise and shine - empowering youth, transforming communities through skills and opportunity.',
     type: 'website',
+    locale: 'en_KE',
+    siteName: 'ASH Global Initiatives',
+    url: 'https://ashglobal.ke',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ASH Global Initiatives',
+    description: 'Empowering communities through skills, resources, and opportunities.',
   },
   icons: {
     icon: '/logo.svg',
     apple: '/logo.svg',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    'max-image-preview': 'large',
+    'max-snippet': -1,
+    'max-video-preview': -1,
   },
 }
 
