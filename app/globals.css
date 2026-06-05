@@ -4,71 +4,71 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Light mode - Professional NGO theme - Updated */
-  --background: #F8F9FA;
-  --foreground: #1F1F1F;
+  /* Light mode - ASH Global Initiatives Brand Theme */
+  --background: #F5F7FA;
+  --foreground: #121212;
   --card: #FFFFFF;
-  --card-foreground: #1F1F1F;
+  --card-foreground: #121212;
   --popover: #FFFFFF;
-  --popover-foreground: #1F1F1F;
-  --primary: #0A3D62;
+  --popover-foreground: #121212;
+  --primary: #0F3D91;
   --primary-foreground: #FFFFFF;
-  --secondary: #0F9D58;
+  --secondary: #00A86B;
   --secondary-foreground: #FFFFFF;
   --muted: #E5E7EB;
   --muted-foreground: #4B5563;
-  --accent: #D4A017;
-  --accent-foreground: #1F1F1F;
+  --accent: #D4AF37;
+  --accent-foreground: #121212;
   --destructive: #DC2626;
   --destructive-foreground: #FFFFFF;
   --border: #D1D5DB;
   --input: #F3F4F6;
-  --ring: #0A3D62;
-  --chart-1: #0A3D62;
-  --chart-2: #0F9D58;
-  --chart-3: #D4A017;
+  --ring: #0F3D91;
+  --chart-1: #0F3D91;
+  --chart-2: #00A86B;
+  --chart-3: #D4AF37;
   --chart-4: #1976D2;
   --chart-5: #0097A7;
   --radius: 0.75rem;
-  --blue: #0A3D62;
-  --green: #0F9D58;
-  --gold: #D4A017;
-  --gold-light: #E6C547;
+  --primary-brand: #0F3D91;
+  --emerald: #00A86B;
+  --gold: #D4AF37;
+  --gold-light: #E8C757;
   --gold-dark: #B8860B;
 }
 
 .dark {
-  /* Dark mode - Professional NGO theme - Updated */
+  /* Dark mode - ASH Global Initiatives Brand Theme */
   --background: #0B1120;
   --foreground: #F9FAFB;
   --card: #111827;
   --card-foreground: #F9FAFB;
   --popover: #1F2937;
   --popover-foreground: #F9FAFB;
-  --primary: #3B82F6;
+  --primary: #5B9FD4;
   --primary-foreground: #0B1120;
-  --secondary: #10B981;
+  --secondary: #2ECC71;
   --secondary-foreground: #0B1120;
   --muted: #374151;
   --muted-foreground: #D1D5DB;
-  --accent: #FBBF24;
+  --accent: #F7D767;
   --accent-foreground: #0B1120;
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
   --border: #374151;
   --input: #1F2937;
-  --ring: #3B82F6;
-  --chart-1: #3B82F6;
-  --chart-2: #10B981;
-  --chart-3: #FBBF24;
+  --ring: #5B9FD4;
+  --chart-1: #5B9FD4;
+  --chart-2: #2ECC71;
+  --chart-3: #F7D767;
   --chart-4: #60A5FA;
   --chart-5: #34D399;
   --radius: 0.75rem;
-  --blue: #3B82F6;
-  --green: #10B981;
-  --gold: #FBBF24;
-  --gold-light: #FCD34D;
-  --gold-dark: #D97706;
+  --primary-brand: #5B9FD4;
+  --emerald: #2ECC71;
+  --gold: #F7D767;
+  --gold-light: #FCDDA5;
+  --gold-dark: #D4A217;
 }
 
 @theme inline {
@@ -99,8 +99,8 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
-  --color-blue: var(--blue);
-  --color-green: var(--green);
+  --color-primary-brand: var(--primary-brand);
+  --color-emerald: var(--emerald);
   --color-gold: var(--gold);
   --color-gold-light: var(--gold-light);
   --color-gold-dark: var(--gold-dark);
