@@ -48,8 +48,8 @@ export const metadata: Metadata = {
     description: 'Empowering communities through skills, resources, and opportunities.',
   },
   icons: {
-    icon: '/logo.svg',
-    apple: '/logo.svg',
+    icon: '/favicon.png',
+    apple: '/logo.png',
   },
   robots: {
     index: true,
@@ -77,7 +77,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="bg-background">
       <head>
-        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
       </head>
       <body className={`${poppins.variable} ${montserrat.variable} ${openSans.variable} font-sans antialiased`}>
         <ThemeProvider

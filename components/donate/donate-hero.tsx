@@ -24,16 +24,18 @@ export function DonateHero() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white mb-6">
             <Heart className="w-4 h-4" />
-            <span className="text-sm font-medium">Support Our Mission</span>
+            <span className="text-sm font-medium">Resource Mobilization & Partnerships</span>
           </div>
 
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Your Generosity <span className="text-gradient-gold">Changes Lives</span>
+            Support Our <span className="text-gradient-gold">Transformative Mission</span>
           </h1>
 
           <p className="text-xl text-white/80 leading-relaxed">
-            Every contribution helps us empower more individuals, train more youth, and 
-            build stronger communities. Join us in making a lasting impact.
+            ASH Global Initiatives continually seeks partnerships, grants, sponsorships, donors, and resource mobilization 
+            opportunities that support our mission of empowering communities through vocational training, mentorship, youth development, 
+            and community support initiatives. Your contribution helps expand access to affordable training, strengthen our support programs, 
+            and create sustainable opportunities for individuals and families.
           </p>
         </motion.div>
       </div>
