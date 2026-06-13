@@ -22,7 +22,7 @@ import { Separator } from "@/components/ui/separator"
 import Link from "next/link"
 import Image from "next/image"
 
-export function SupportSection() {
+export function FundraiserSection() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
