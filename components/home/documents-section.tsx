@@ -103,8 +103,8 @@ export function DocumentsSection() {
                 style={{ 
                   backgroundColor: brandColors.darkElevated,
                   border: `1px solid ${brandColors.borderLight}`,
-                  focusRingColor: brandColors.secondary
-                }}
+                  '--tw-ring-color': brandColors.secondary
+                } as any}
               />
             </div>
           </div>
