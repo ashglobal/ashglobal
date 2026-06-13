@@ -287,7 +287,7 @@ export function FundraiserSection() {
           className="text-center"
         >
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/partnership">
+            <Link href="/become-a-partner">
               <Button
                 size="lg"
                 className="rounded-full px-8 py-6 text-base font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl"
@@ -300,7 +300,7 @@ export function FundraiserSection() {
                 Become a Partner
               </Button>
             </Link>
-            <Link href="/donate">
+            <Link href="/support-our-mission">
               <Button
                 size="lg"
                 variant="outline"
@@ -315,7 +315,7 @@ export function FundraiserSection() {
                 Support Our Mission
               </Button>
             </Link>
-            <Link href="/sponsorship">
+            <Link href="/sponsorship-opportunities">
               <Button
                 size="lg"
                 variant="ghost"

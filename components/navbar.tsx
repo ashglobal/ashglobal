@@ -28,6 +28,16 @@ const navLinks = [
   { href: "/training", label: "Training" },
   { href: "/resources", label: "Resources" },
   { href: "/media", label: "Media" },
+  {
+    href: "/support-our-mission",
+    label: "Support",
+    children: [
+      { href: "/support-our-mission", label: "Support Our Mission" },
+      { href: "/sponsorship-opportunities", label: "Sponsorship Opportunities" },
+      { href: "/become-a-partner", label: "Become a Partner" },
+      { href: "/donate", label: "Donate" },
+    ]
+  },
   { href: "/contact", label: "Contact" },
 ]
 
