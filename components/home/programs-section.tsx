@@ -37,12 +37,12 @@ const programs = [
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
   },
   {
-    icon: Radio,
-    title: "Online Marketing & Podcast",
-    description: "Digital presence solutions and engaging podcast content focusing on community development and youth empowerment.",
-    href: "/media",
-    image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800&q=80",
-  },
+  icon: Radio,
+  title: "Media, Podcast & Livestream Studio",
+  description: "A creative media hub where youth develop practical skills in podcast production, livestreaming, digital storytelling, and content creation to educate, inspire, and transform communities.",
+  href: "/media",
+  image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800&q=80",
+},
 ]
 
 export function ProgramsSection() {
